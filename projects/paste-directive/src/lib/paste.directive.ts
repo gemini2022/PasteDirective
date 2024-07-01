@@ -10,8 +10,8 @@ export class PasteDirective {
   private removeBlurListener!: () => void;
   private removePasteListener!: () => void;
   private removeFocusListener!: () => void;
-  private removeKeydownListener!: () => void;
   private removeMouseupListener!: () => void;
+  private removeKeydownListener!: () => void;
   private el: ElementRef = inject(ElementRef);
   private removeMouseDownListener!: () => void;
   private renderer: Renderer2 = inject(Renderer2);
